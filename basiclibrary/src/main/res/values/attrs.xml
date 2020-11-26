@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LoadingCircleView">
+        <attr name="loadingCircleColorLeft" format="color"/>
+        <attr name="loadingCircleColorRight" format="color"/>
+        <attr name="loadingCircleWidth" format="dimension"/>
+        <attr name="loadingCircleRadius" format="dimension"/>
+    </declare-styleable>
+</resources>

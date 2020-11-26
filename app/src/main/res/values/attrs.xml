@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--自定义复选框-->
+    <declare-styleable name="CheckBox_Sample">
+        <attr name="size" format="dimension" />
+        <attr name="color_border" format="color" />
+        <attr name="color_background" format="color" />
+    </declare-styleable>
+
+    <!--开关-->
+    <declare-styleable name="CustomButtonView">
+        <attr name="CBCircularColor" format="color"/>
+        <attr name="CBRadius" format="dimension"/>
+        <attr name="CBChangeColor" format="color"/>
+        <attr name="CBOriginalColor" format="color"/>
+    </declare-styleable>
+
+    <!--自定义文字下划线-->
+    <declare-styleable name="UnderlineTextView">
+        <attr name="UTextWidth" format="dimension"/>
+        <attr name="UTextColor" format="color"/>
+        <attr name="UTextOriginalColor" format="color"/>
+        <attr name="UTextLineColor" format="color"/>
+    </declare-styleable>
+</resources>

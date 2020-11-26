@@ -1,0 +1,122 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation">
+
+    <string name="app_name">HC蓝牙助手</string>
+    <string name="module_name">蓝牙名称:</string>
+    <string name="module_mac">物理地址:</string>
+    <string name="pop_window_item_1">只显示有名字的设备</string>
+    <string name="pop_window_item_2">只搜索BLE设备</string>
+    <string name="pop_window_item_3">综合扫描</string>
+    <string name="pop_window_item_4">UUID过滤设备(FFF0或FFE0)</string>
+    <string name="pop_window_item_5">自定义过滤:  0x</string>
+    <string name="pop_window_item_6">例如:FFF0</string>
+
+    <string name="pop_window_fragment_1">HEX发送</string>
+    <string name="pop_window_fragment_2">HEX接收</string>
+    <string name="pop_window_fragment_3">显示发送时间</string>
+    <string name="pop_window_fragment_4">显示发送数据</string>
+    <string name="pop_window_fragment_5">接收数据中</string>
+    <string name="pop_window_fragment_6">清空接收内容</string>
+    <string name="pop_window_fragment_7">自动清屏(只缓存400K)</string>
+
+    <string name="hint_collect_menu_1">收藏蓝牙</string>
+    <string name="hint_collect_menu_2">可选：输入蓝牙的别名</string>
+    <string name="hint_collect_menu_3">确认取消收藏？</string>
+
+    <string name="hint_set_button_1">设置按钮</string>
+    <string name="hint_set_button_2">设置按钮名称:</string>
+    <string name="hint_set_button_3">设置按钮内容:</string>
+
+    <string name="fragment_message_read">收到</string>
+    <string name="fragment_message_byte">字节</string>
+    <string name="fragment_message_byte_number_1">（待发送</string>
+    <string name="fragment_message_byte_number_2">字节)</string>
+
+    <string name="fragment_read_data">收到的数据\t\t(</string>
+    <string name="fragment_read_data_hex">HEX接收)</string>
+
+    <string name="cancel">取消</string>
+    <string name="affirm">确认</string>
+    <string name="send">发送</string>
+    <string name="clear">清除输入</string>
+    <string name="loop_send">循环发送，延时(ms):</string>
+    <string name="loop_time">大于10</string>
+    <string name="zero">0</string>
+    <string name="Long_press_set">长按设置</string>
+
+    <string name="set_direction_button">设置方向按钮</string>
+    <string name="click_send">点击发送</string>
+    <string name="long_click_send">长按发送</string>
+    <string name="time_hint">持续发送时间间隔:</string>
+
+    <string name="set_send_module">设置发送模式(方向按钮共享此设置)</string>
+
+    <string name="button_group">按钮组</string>
+    <string name="direction_button">方向按钮</string>
+
+    <string name="any_character">任意字符</string>
+
+    <string name="three_fragment">其他信息</string>
+    <string name="message_fragment">通信界面</string>
+    <string name="custom_fragment">自定义按钮</string>
+    <string name="log_fragment">日志信息</string>
+
+    <string name="module_message">模块信息</string>
+    <string name="module_type">模块类型:</string>
+    <string name="module_connect_state">连接状态:</string>
+    <string name="module_service_uuid">服务特征:</string>
+    <string name="module_read_uuid">写入特征:</string>
+    <string name="module_send_uuid">读取特征:</string>
+
+    <string name="module_parameters">通信设置</string>
+    <string name="module_velocity">发送速度:</string>
+    <string name="module_height">高</string>
+    <string name="module_centre">中</string>
+    <string name="module_low">低</string>
+    <string name="module_velocity_hint">说明:发送速度过高可能会导致丢包，发生丢包请将速度降低一档试试看</string>
+    <string name="module_time">时间间隔(ms):</string>
+    <string name="module_time_hint">说明:收到数据的时间间隔，即在设置的时间内，把两段数据视为同一数据。数据频率较高的话，把时间间隔设置小一点，频率较低则相反。比如两段数据时间间隔为小于100ms，将会把两段数据粘在一起</string>
+    <string name="module_ble_buff">BLE蓝牙缓存大小:</string>
+    <string name="module_classic_buff">2.0蓝牙缓存大小:</string>
+    <string name="module_ble_buff_hint">说明：为了使中文在传输过程中，尽量避免乱码发生，需要设置缓冲区接收再统一转码。缓冲区过长，会使接收内容的显示延迟，但不影响接收速度，比如BLE缓冲区设置为1000，那么在连续接收数据下，会等到缓冲区满1000再显示这部分数据</string>
+
+    <string name="packet_loss">丢包处理</string>
+    <string name="packet_loss_coefficient">发送参数:</string>
+    <string name="pack_loss_hint">说明:如果在与BLE蓝牙发送的过程中发现丢包现象，可以在上面的参数中调整，数值越大，越不容易丢包，最大为10。但是数值越大，发送速度越慢</string>
+
+    <string name="module_other_message">其他信息</string>
+    <string name="home_page_that">1.如下图，在首页点击右上角的蓝牙符号，可以从弹出的窗口中选择需要的过滤条件，其中UUID过滤是选择出汇承的BLE蓝牙模块（HC-02模块除外）</string>
+    <string name="home_page_head">2.点击蓝牙列表里每一列最左边的图片，可以给模块起别名与收藏，收藏完模块的名字颜色如下</string>
+
+    <string name="hint_hid_reminder">提示：需要配合PC端的HID助手使用</string>
+    <string name="hint_hid_right">下载好了</string>
+    <string name="hint_hid_download">前往下载</string>
+    <string name="hint_hid_no_hint">已经知道了，以后不再提示</string>
+    
+    <string name="activity_hid_one">1.先把底板（也是一个小U盘）通过USB线连接到电脑</string>
+    <string name="activity_hid_two">2.连接成功后，进入我的电脑（或此电脑）会发现多出一个盘，点击打开</string>
+    <string name="activity_hid_three">3.这个盘里有个网页，打开他</string>
+    <string name="activity_hid_four">4.通过打开的网页下载HID助手，等待下载完，打开运行下载的文件即可</string>
+
+    <string name="hint_invalid_1">AT指令设置无效</string>
+    <string name="hint_invalid_2">\t\t手机与模块通讯是透传模式，在这模式下所有的AT指令设置效果均无效。若想使用AT指令设置模块，请先断开连接，再在HID助手里设置。</string>
+    <string name="hint_invalid_3">前往下载HID助手</string>
+    <string name="hint_invalid_4">不再提示</string>
+    
+    <string name="coded_format">编码格式</string>
+    <string name="coded_format_string">字符编码格式:</string>
+    <string name="coded_format_gbk">GBK</string>
+    <string name="coded_format_utf">UTF-8</string>
+    <string name="coded_format_unicode">Unicode</string>
+    <string name="coded_format_ascii">ASCII</string>
+
+    <string name="about_us">giftedCat</string>
+    <string name="web">官网 www.baidu.com</string>
+    <string name="versions">版本 1.2.0</string>
+
+    <string name="permission_tile">位置权限说明</string>
+    <string name="permission_hint">\t\t App在扫描周围蓝牙前，需要获取位置权限，否则无法扫描周围蓝牙。为了保证App正常工作，请授予位置权限。</string>
+    <string name="permission_affirm">好的，授予</string>
+    <string name="permission_cancle">拒绝，退出</string>
+
+
+</resources>

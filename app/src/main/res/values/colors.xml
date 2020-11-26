@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#EDEDED</color>
+    <color name="colorPrimaryDark">#EDEDED</color>
+    <color name="colorAccent">#EDEDED</color>
+    <color name="baseLine">#d1d2d6</color>
+    <color name="black">#000</color>
+    <color name="lightBlue">#8CD3EC</color>
+    <color name="skyBlue">#4EB9D2</color>
+    <color name="dustyBlue">#6CA5C5</color>
+    <color name="popWindowBack">#FAFAFA</color>
+    <color name="hintWindowTitle">#EDEDED</color>
+    <color name="recyclerBack">#F2F2F2</color>
+    <color name="red">#FE4F6E</color>
+    <color name="green">#79D0A5</color>
+    <color name="orange">#FF7C10</color>
+    <color name="yellow">#FDD200</color>
+    <color name="gray">#8E8E8E</color>
+    <color name="darkRed">#B55656</color>
+    <color name="frenchGrey">#737373</color>
+</resources>

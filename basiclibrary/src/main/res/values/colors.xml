@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="line">#E4E4E4</color>
+    <color name="tab_indicator_text">#4EB9D2</color><!--F1E7A6 99CCFF FDD200 4EB9D2 68DD89-->
+    <color name="s9">#ff6b5547</color>
+    <color name="title_bar_bg_day">#ffdcd9cf</color>
+    <color name="tab_text_highlight">#ff735646</color>
+    <color name="tab_text_normal">#ff999999</color>
+    <color name="menuTextColor">#E3E3E3</color>
+    <color name="menuBack">#444444</color>
+    <color name="cambridge_blue">#2E98C4</color>
+    <color name="white">#fff</color>
+</resources>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="@string/pop_window_item_1"/>
+        <com.hc.mixthebluetooth.customView.CheckBoxSample
+            android:id="@+id/pop_main_check_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:color_background="@color/skyBlue"
+            app:color_border="@color/skyBlue"
+            app:size="25dp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="@string/pop_window_item_3"/>
+        <com.hc.mixthebluetooth.customView.CheckBoxSample
+            android:id="@+id/pop_main_check_mix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:color_background="@color/skyBlue"
+            app:color_border="@color/skyBlue"
+            app:size="25dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="@string/pop_window_item_2"/>
+
+        <com.hc.mixthebluetooth.customView.CheckBoxSample
+            android:id="@+id/pop_main_check_ble"
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            app:color_background="@color/skyBlue"
+            app:color_border="@color/skyBlue"
+            app:size="25dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pop_main_filter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:gravity="center_vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="@string/pop_window_item_4"/>
+            <com.hc.mixthebluetooth.customView.CheckBoxSample
+                android:id="@+id/pop_main_check_filter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:color_background="@color/skyBlue"
+                app:color_border="@color/skyBlue"
+                app:size="25dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingTop="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="@string/pop_window_item_5"/>
+            <EditText
+                android:id="@+id/pop_main_edit_custom"
+                android:layout_width="0dp"
+                android:layout_weight="1.5"
+                android:digits="ABCDEFabcdef0123456789"
+                android:layout_height="wrap_content" />
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="0.5"/>
+            <com.hc.mixthebluetooth.customView.CheckBoxSample
+                android:id="@+id/pop_main_check_filter_custom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:color_background="@color/skyBlue"
+                app:color_border="@color/skyBlue"
+                app:size="25dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

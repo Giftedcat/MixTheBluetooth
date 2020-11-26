@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/communication_name"
+    android:orientation="vertical"
+    tools:context=".activity.CommunicationActivity">
+
+
+    <HorizontalScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="6dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="10dp"
+            android:orientation="horizontal">
+            <com.hc.mixthebluetooth.customView.UnderlineTextView
+                android:id="@+id/one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                app:UTextColor="@color/frenchGrey"
+                app:UTextWidth="3dp"
+                app:UTextOriginalColor="@color/menuBack"
+                app:UTextLineColor="@color/skyBlue"
+                android:text="@string/message_fragment"/>
+            <com.hc.mixthebluetooth.customView.UnderlineTextView
+                android:id="@+id/two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                app:UTextColor="@color/frenchGrey"
+                app:UTextWidth="3dp"
+                app:UTextOriginalColor="@color/menuBack"
+                app:UTextLineColor="@color/skyBlue"
+                android:text="@string/custom_fragment"/>
+            <com.hc.mixthebluetooth.customView.UnderlineTextView
+                android:id="@+id/three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                app:UTextColor="@color/frenchGrey"
+                app:UTextWidth="3dp"
+                app:UTextOriginalColor="@color/menuBack"
+                app:UTextLineColor="@color/skyBlue"
+                android:text="@string/three_fragment"/>
+
+            <com.hc.mixthebluetooth.customView.UnderlineTextView
+                android:id="@+id/log"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                app:UTextColor="@color/frenchGrey"
+                app:UTextWidth="3dp"
+                app:UTextOriginalColor="@color/menuBack"
+                app:UTextLineColor="@color/skyBlue"
+                android:text="@string/log_fragment"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/communication_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</LinearLayout>

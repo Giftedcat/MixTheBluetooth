@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <com.hc.mixthebluetooth.customView.dialog.SetButton
+        android:id="@+id/hint_set_button_vessel_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </com.hc.mixthebluetooth.customView.dialog.SetButton>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="100dp"/>
+
+</LinearLayout>

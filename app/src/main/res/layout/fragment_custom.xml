@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:src="@color/orange"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="@string/fragment_read_data"/>
+        <com.hc.mixthebluetooth.customView.CheckBoxSample
+            android:id="@+id/custom_fragment_read_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="1dp"
+            app:color_background="@color/green"
+            app:color_border="@color/green"
+            app:size="15dp"/>
+        <TextView
+            android:id="@+id/custom_fragment_read_hex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="@string/fragment_read_data_hex"/>
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/custom_fragment_recycler"
+        android:layout_width="match_parent"
+        android:background="@color/recyclerBack"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <com.hc.mixthebluetooth.customView.UnderlineTextView
+            android:id="@+id/custom_fragment_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:text="@string/button_group"
+            android:textSize="16sp"
+            app:UTextColor="@color/frenchGrey"
+            app:UTextLineColor="@color/skyBlue"
+            app:UTextOriginalColor="@color/menuBack"
+            app:UTextWidth="3dp" />
+
+        <com.hc.mixthebluetooth.customView.UnderlineTextView
+            android:id="@+id/custom_fragment_direction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:text="@string/direction_button"
+            android:textSize="16sp"
+            app:UTextColor="@color/frenchGrey"
+            app:UTextLineColor="@color/skyBlue"
+            app:UTextOriginalColor="@color/menuBack"
+            app:UTextWidth="3dp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="0dp"/>
+
+        <ImageView
+            android:id="@+id/custom_fragment_pull_image"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/pull_down"
+            android:contentDescription="@string/direction_button" />
+
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:id="@+id/custom_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </FrameLayout>
+
+
+</LinearLayout>

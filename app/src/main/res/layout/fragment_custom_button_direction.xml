@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/custom_fragment_direction_name"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="16sp"
+            android:text="@string/pop_window_fragment_1"/>
+        <com.hc.mixthebluetooth.customView.CustomButtonView
+            android:id="@+id/custom_fragment_direction_hex"
+            android:layout_width="60dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            app:CBOriginalColor="#B6B6B6"
+            app:CBChangeColor="#A1D38E"
+            app:CBCircularColor="@color/yellow"
+            app:CBRadius="10dp"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="end">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:padding="10dp"
+                android:text="@string/set_direction_button"/>
+            <com.hc.mixthebluetooth.customView.CustomButtonView
+                android:id="@+id/custom_fragment_direction_set"
+                android:layout_width="60dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                app:CBOriginalColor="#B6B6B6"
+                app:CBChangeColor="#A1D38E"
+                app:CBCircularColor="@color/yellow"
+                app:CBRadius="10dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+        <TextView
+            android:id="@+id/custom_fragment_direction_top"
+            android:layout_width="100dp"
+            style="@style/button_back_style"
+            android:layout_height="wrap_content"
+            android:text="top"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp">
+
+        <TextView
+            android:id="@+id/custom_fragment_direction_left"
+            style="@style/button_back_style"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="left" />
+
+        <TextView
+            android:id="@+id/custom_fragment_direction_middle"
+            style="@style/button_back_style"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="middle" />
+
+        <TextView
+            android:id="@+id/custom_fragment_direction_right"
+            style="@style/button_back_style"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="right" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+        <TextView
+            android:id="@+id/custom_fragment_direction_bottom"
+            android:layout_width="100dp"
+            style="@style/button_back_style"
+            android:layout_height="wrap_content"
+            android:text="bottom"/>
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:paddingBottom="8dp">
+        <LinearLayout
+            android:id="@+id/custom_fragment_direction_linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:gravity="center_horizontal">
+            <TextView
+                android:id="@+id/custom_fragment_direction_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/button_back_style"
+                android:text="@string/Long_press_set"/>
+            <TextView
+                android:id="@+id/custom_fragment_direction_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/button_back_style"
+                android:text="@string/Long_press_set"/>
+            <TextView
+                android:id="@+id/custom_fragment_direction_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/button_back_style"
+                android:text="@string/Long_press_set"/>
+            <TextView
+                android:id="@+id/custom_fragment_direction_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/button_back_style"
+                android:text="@string/Long_press_set"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>

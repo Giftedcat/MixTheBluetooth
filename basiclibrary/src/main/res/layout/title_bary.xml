@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/title_bar_style">
+
+    <TextView
+        android:id="@+id/back"
+        style="@style/back_view"/>
+
+    <TextView
+        android:id="@+id/left_text"
+        style="@style/left_view"
+        android:textSize="18sp"
+        android:layout_centerVertical="true"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/title_text_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="75.0dip"
+        android:layout_marginRight="75.0dip"
+        android:textColor="@color/white"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:visibility="gone" />
+
+    <com.hc.basiclibrary.titleBasic.LoadingCircleView
+        android:id="@+id/title_loading"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/right_layout"
+        app:loadingCircleColorLeft="@color/white"
+        app:loadingCircleColorRight="@color/tab_indicator_text"
+        app:loadingCircleWidth="3dp"
+        app:loadingCircleRadius="11dp"/>
+
+    <LinearLayout
+        android:id="@+id/right_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true">
+        <ImageView
+            android:id="@+id/right_icon"
+
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="8dp"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/pop_icon"/>
+
+        <TextView
+            android:id="@+id/right_text"
+            android:visibility="gone"
+            style="@style/title_bar_button"
+            android:textColor="@color/white"
+            android:layout_marginLeft="8dp" />
+    </LinearLayout>
+
+
+
+</RelativeLayout>
